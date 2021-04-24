@@ -1,6 +1,6 @@
 #Pasos Previos
 ## 1. Descargar requests para python3 en venv => pip3 install requests. Sirve para descargar webpages
-## 2. Descargar bs4 en venv
+## 2. Descargar bs4 en venv. Sirve para leer el codigo html
 import requests
 from bs4 import BeautifulSoup as bs
 
