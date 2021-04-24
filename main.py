@@ -1,5 +1,5 @@
 #Pasos Previos
-## 1. Descargar requests para python3 en venv => pip3 install requests
+## 1. Descargar requests para python3 en venv => pip3 install requests. Sirve para descargar webpages
 ## 2. Descargar bs4 en venv
 import requests
 from bs4 import BeautifulSoup as bs
