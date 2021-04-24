@@ -15,6 +15,5 @@ r = requests.get(url) #Esta función envia un request a la URL que acabamos de e
 soup = bs(r.content, 'html.parser') #la variable soup almacena todo el HTML de la página
 #Fourth Step: Especificar qué tag necesitamos traer del HTML
 profile_img = soup.find('img', {'class':'avatar avatar-user width-full border color-bg-primary'})['src']
-
-#
+#Muestro la URL para que la persona le de click
 print(f'Esta es la URL de: '+ profile_img)
